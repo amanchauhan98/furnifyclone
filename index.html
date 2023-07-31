@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+
+<body class="relative">
+  <!-- component -->
+  <!-- follow me on twitter @asad_codes -->
+<section class="relative mx-auto">
+<div class="container">
+    <div class="flex flex-wrap h-[5.5rem]">
+        <!-- navbar -->
+        <nav class="flex justify-between bg-white border-b-[0.01rem] border-gray-100 text-black w-full">
+          <div class="px-5 xl:px-12 py-3 flex w-full items-center">
+            <a class="text-3xl font-bold font-heading flex space-x-2" href="#">
+              <img class="h-6 w-auto" src="images/Group 113.png" alt="logo">
+              <img src="images/F U R N I F Y.png" class="h-5 w-[6.5rem]" alt="">
+            </a>
+            <!-- Nav Links -->
+            <ul class="hidden md:flex  mx-auto font-semibold font-heading bg-gray-100 ">
+              <input type="text" class="h-[2.5rem] w-[26rem] bg-gray-100 px-3 py-2 placeholder:font-thin placeholder:font-sans outline-none border-r-[0.01rem] border-gray-300" placeholder="Search">
+              <select name="cars" id="cars" class="bg-gray-100  text-gray-400 font-thin outline-none pl-4">
+                <option value="volvo" class="hover:bg-green-500 ">Chair</option>
+                <option value="saab" class="hover:bg-green-500 hover:text-white duration-500 delay-150">Table</option>
+                <option value="mercedes" class="hover:bg-green-500 hover:text-white duration-500 delay-150">Desk
+                </option>
+                <option value="audi" class="hover:bg-green-500 hover:text-white duration-500 delay-150">BinBags</option>
+              </select>
+              <button
+                class="bg-green-500 px-5 py-2 hover:bg-gray-100 text-white hover:text-green-500 duration-500 delay-200"><i
+                  class="fa-solid fa-magnifying-glass "></i></button>
+            </ul>
+            <!-- Header Icons -->
+            <div class="hidden xl:flex items-center space-x-5 ">
+              <a class="hover:text-gray-200" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                </svg>
+              </a>
+              <a class="flex items-center hover:text-gray-200" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+                <span class="flex absolute -mt-5 ml-4">
+                  <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-green-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500">
+                  </span>
+                </span>
+              </a>
+              <!-- Sign In / Register      -->
+              <a class="flex items-center hover:text-gray-200" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-200" fill="none"
+                  viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </a>
+
+            </div>
+          </div>
+          <!-- Responsive navbar -->
+          <a class="xl:hidden flex mr-6 items-center" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-200" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+            <span class="flex absolute -mt-5 ml-4">
+              <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-pink-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-3 w-3 bg-pink-500">
+              </span>
+            </span>
+          </a>
+          <a class="navbar-burger self-center mr-12 xl:hidden" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-200" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </a>
+        </nav>
+
+      </div>
+    </div>  
+  </section>
+    <!-- for chair slider -->
+    <!-- component -->
+    <div class="h-fit w-auto overflow-hidden flex flex-nowrap text-center" id="slider">
+      <div class=" text-white  flex-none w-full flex flex-col  justify-center">
+        <div class="relative overflow-hidden">
+          <img src="images/Mask group.jpg" class="h-full w-full" alt="">
+          <div class="absolute top-[7rem] left-[5rem] overflow-hidden h-fit space-y-[1.5rem]">
+            <div><span class="text-4xl text-gray-800 font-sans font-medium">Furniture That Everyone Loves</span></div>
+            <div>
+              <p class="w-[30rem] text-gray-800 text-lg text-left font-[400]">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Libero perferendis unde obcaecati?</p>
+            </div>
+            <div class="flex justify-start"><button
+                class="bg-green-500 text-white px-7 py-2 rounded-3xl font-medium hover:bg-transparent hover:text-green-500 duration-500 delay-150 border-[0.01rem] border-green-500">Explore
+                Now</button></div>
+          </div>
+        </div>
+      </div>
+      <div class="text-white space-y-4 flex-none w-full flex flex-col items-center justify-center">
+        <div class="relative overflow-hidden">
+          <img src="images/Mask group.jpg" class="h-full w-full" alt="">
+          <div class="absolute top-[7rem] left-[5rem] overflow-hidden h-fit space-y-[1.5rem]">
+            <div><span class="text-4xl text-gray-800 font-sans font-medium">Furniture That Everyone Loves</span></div>
+            <div>
+              <p class="w-[30rem] text-gray-800 text-lg text-left font-[400]">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Libero perferendis unde obcaecati?</p>
+            </div>
+            <div class="flex justify-start"><button
+                class="bg-green-500 text-white px-7 py-2 rounded-3xl font-medium hover:bg-transparent hover:text-green-500 duration-500 delay-150 border-[0.01rem] border-green-500">Explore
+                Now</button></div>
+          </div>
+        </div>
+      </div>
+      <div class=" text-white space-y-4 flex-none w-full flex flex-col items-center justify-center">
+        <div class="relative overflow-hidden">
+          <img src="images/Mask group.jpg" class="h-full w-full" alt="">
+          <div class="absolute top-[7rem] left-[5rem] overflow-hidden h-fit space-y-[1.5rem]">
+            <div><span class="text-4xl text-gray-800 font-sans font-medium">Furniture That Everyone Loves</span></div>
+            <div>
+              <p class="w-[30rem] text-gray-800 text-lg text-left font-[400]">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Libero perferendis unde obcaecati?</p>
+            </div>
+            <div class="flex justify-start"><button
+                class="bg-green-500 text-white px-7 py-2 rounded-3xl font-medium hover:bg-transparent hover:text-green-500 duration-500 delay-150 border-[0.01rem] border-green-500">Explore
+                Now</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- this is for six grid images -->
+    <div class="w-auto h-fit overflow-hidden relative bg-white my-[2rem] px-[2rem]">
+      <div class="flex text-black px-[1.5rem] py-[1.5rem]">
+        <div><span class="text-black text-xl font-sans ">Shop By Venue</span></div>
+        <div class="flex flex-auto justify-end ">
+          <span class="font-medium text-lg text-green-700 font-sans hover:underline underline-offset-8">View More</span>
+        </div>
+      </div>
+      <div class="grid grid-cols-6 gap-[1rem] justify-evenly overflow-hidden relative">
+        <!-- this is a first img grid div -->
+        <div class="space-y-3">
+          <div class="h-[10rem] w-[10rem] rounded-full bg-gray-100 flex">
+            <img src="images/image 89258.png" class="h-fit w-fit rounded-full justify-center" alt="">
+          </div>
+          <div class="flex justify-evenly">
+            <span class="text-lg font-sans font-medium text-center -ml-8">Restaurants</span>
+          </div>
+        </div>
+        <!-- this is a second img grid div -->
+        <div class="space-y-3">
+          <div class="h-[10rem] w-[10rem] rounded-full bg-gray-100 flex">
+            <img src="images/image 89259.png" class="h-fit w-fit rounded-full justify-center" alt="">
+          </div>
+          <div class="flex justify-evenly">
+            <span class="text-lg font-sans font-medium text-center -ml-8">Restaurants</span>
+          </div>
+        </div>
+
+        <div class="space-y-3">
+          <div class="h-[10rem] w-[10rem] rounded-full bg-gray-100 flex">
+            <img src="images/image 89260.png" class="h-fit w-fit rounded-full justify-center" alt="">
+          </div>
+          <div class="flex justify-evenly">
+            <span class="text-lg font-sans font-medium text-center -ml-8">Restaurants</span>
+          </div>
+        </div>
+
+        <div class="space-y-3">
+          <div class="h-[10rem] w-[10rem] rounded-full bg-gray-100 flex">
+            <img src="images/image 89261.png" class="h-fit w-fit rounded-full justify-center" alt="">
+          </div>
+          <div class="flex justify-evenly">
+            <span class="text-lg font-sans font-medium text-center -ml-8">Restaurants</span>
+          </div>
+        </div>
+
+        <div class="space-y-3">
+          <div class="h-[10rem] w-[10rem] rounded-full bg-gray-100 flex">
+            <img src="images/image 89262.png" class="h-fit w-fit rounded-full justify-center" alt="">
+          </div>
+          <div class="flex justify-evenly">
+            <span class="text-lg font-sans font-medium text-center -ml-8">Restaurants</span>
+          </div>
+        </div>
+
+        <div class="space-y-3">
+          <div class="h-[10rem] w-[10rem] rounded-full bg-gray-100 flex">
+            <img src="images/image 89263.png" class="h-fit w-fit rounded-full justify-center" alt="">
+          </div>
+          <div class="flex justify-evenly">
+            <span class="text-lg font-sans font-medium text-center -ml-8">Restaurants</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+ 
+
+  <!-- this is a card info  -->
+  <div class="my-[3rem] bg-white w-full h-fit overflow-hidden">
+    <div class="px-[2rem] py-[1rem] inner-div grid grid-cols-3 justify-evenly gap-[1.5rem] overflow-hidden">
+      <!-- card1 -->
+      <div class="card1 bg-[#f1f4fa] h-[17rem] w-[25rem] rounded-lg relative">
+        <!-- img div -->
+        <div class="absolute bottom-3 right-2 h-[9rem] w-[9rem] ">
+          <img style="filter: drop-shadow(10px 10px 10px gray);" src="images/U905 Chair - JS 2.png" class="h-fit w-fit" alt="">
+        </div>
+        <div class="absolute top-6 left-4 overflow-hidden space-y-3">
+          <div><span class="text-xl font-sans font-medium tracking-wide">Chairs</span></div>
+          <div><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quas.</span></div>
+          <div><button class="bg-green-500 text-white px-10 py-2 rounded-3xl  font-sans font-medium hover:bg-transparent hover:text-green-500 duration-500 delay-200 border-[0.01rem] border-green-500">Shop Chair</button></div>
+        </div>
+      </div>
+      <!-- card 2 -->
+      <div class="card1 bg-[#f1f4fa] h-[17rem] w-[25rem] rounded-lg relative">
+        <!-- img div -->
+        <div class="absolute -bottom-3 right-4 h-[9rem] w-[9rem] ">
+          <img src="images/image 89267.png" class="h-fit w-fit scale-110" alt="">
+        </div>
+        <div class="absolute top-6 left-4 overflow-hidden space-y-3">
+          <div><span class="text-xl font-sans font-medium tracking-wide">Chairs</span></div>
+          <div><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quas.</span></div>
+          <div><button class="bg-green-500 text-white px-10 py-2 rounded-3xl  font-sans font-medium hover:bg-transparent hover:text-green-500 duration-500 delay-200 border-[0.01rem] border-green-500">Shop Chair</button></div>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div class="card1 bg-[#f1f4fa] h-[17rem] w-[25rem] rounded-lg relative">
+        <!-- img div -->
+        <div class="absolute bottom-3 right-2 h-[9rem] w-[9rem] ">
+          <img style="filter: drop-shadow(10px 10px 10px gray);" src="images/image 89268.png" class="h-fit w-fit" alt="">
+        </div>
+        <div class="absolute top-6 left-4 overflow-hidden space-y-3">
+          <div><span class="text-xl font-sans font-medium tracking-wide">Chairs</span></div>
+          <div><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quas.</span></div>
+          <div><button class="bg-green-500 text-white px-10 py-2 rounded-3xl  font-sans font-medium hover:bg-transparent hover:text-green-500 duration-500 delay-200 border-[0.01rem] border-green-500">Shop Chair</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- this is for bestseller -->
+  <div class="w-auto h-fit overflow-hidden relative bg-white my-[2rem] px-[2rem]">
+    <div class="flex text-black px-[1.5rem] py-[1.5rem]">
+      <div><span class="text-black text-xl font-sans ">Shop By Venue</span></div>
+      <div class="flex flex-auto justify-end ">
+        <span class="text-green-700 font-medium text-lg font-sans hover:underline underline-offset-8">View More</span>
+      </div>
+    </div>
+    <div class="grid grid-cols-6 gap-[1rem] justify-evenly overflow-hidden relative">
+      <!-- this is a first card div -->
+      <div class="border-[0.01rem] border-gray-100 rounded-md w-[13rem] h-fit px-2">
+        <div class="w-[10rem] h-[10rem] mx-auto">
+          <img src="images/W201 Red Chair - JS 1.png" class="h-fit w-fit" alt="">
+        </div>
+        <div class="text-left relative px-1 py-1 overflow-hidden">
+          <div><span class="text-sm font-sans text-gray-500 ">Chair</span></div>
+          <div><span class="text-gray-900 font-medium  font-sans">Lorem ipsum dolor sit amet.</span></div>
+          <div><span class="text-green-500 font-sans text-sm">$999.99</span></div>
+          <div class="flex items-center space-x-2"><p class="h-2 w-2 rounded-full bg-red-500"></p><span class="text-xs text-red-500">Lorem, ipsum dolor.</span></div>
+        </div>
+      </div>
+      <!-- this is a second img grid div -->
+      <div class="border-[0.01rem] border-gray-100 rounded-md w-[13rem] h-fit px-2">
+        <div class="w-[10rem] h-[10rem] mx-auto">
+          <img src="images/M633 Chair - JC 1.png" class="h-fit w-fit" alt="">
+        </div>
+        <div class="text-left relative px-1 py-1 overflow-hidden">
+          <div><span class="text-sm font-sans text-gray-500 ">Chair</span></div>
+          <div><span class="text-gray-900 font-medium  font-sans">Lorem ipsum dolor sit amet.</span></div>
+          <div><span class="text-green-500 font-sans text-sm">$999.99</span></div>
+          <div class="flex items-center space-x-2"><p class="h-2 w-2 rounded-full bg-red-500"></p><span class="text-xs text-red-500">Lorem, ipsum dolor.</span></div>
+        </div>
+      </div>
+
+      <div class="border-[0.01rem] border-gray-100 rounded-md w-[13rem] h-fit px-2">
+        <div class="w-[10rem] h-[10rem] mx-auto">
+          <img src="images/U902 Chair - JS 1.png" class="h-fit w-fit" alt="">
+        </div>
+        <div class="text-left relative px-1 py-1 overflow-hidden">
+          <div><span class="text-sm font-sans text-gray-500 ">Chair</span></div>
+          <div><span class="text-gray-900 font-medium  font-sans">Lorem ipsum dolor sit amet.</span></div>
+          <div><span class="text-green-500 font-sans text-sm">$999.99</span></div>
+          <div class="flex items-center space-x-2"><p class="h-2 w-2 rounded-full bg-red-500"></p><span class="text-xs text-red-500">Lorem, ipsum dolor.</span></div>
+        </div>
+      </div>
+
+      <div class="border-[0.01rem] border-gray-100 rounded-md w-[13rem] h-fit px-2">
+        <div class="w-[10rem] h-[10rem] mx-auto">
+          <img src="images/image 89244.png" class="h-fit w-fit" alt="">
+        </div>
+        <div class="text-left relative px-1 py-1 overflow-hidden">
+          <div><span class="text-sm font-sans text-gray-500 ">Chair</span></div>
+          <div><span class="text-gray-900 font-medium  font-sans">Lorem ipsum dolor sit amet.</span></div>
+          <div><span class="text-green-500 font-sans text-sm">$999.99</span></div>
+          <div class="flex items-center space-x-2"><p class="h-2 w-2 rounded-full bg-red-500"></p><span class="text-xs text-red-500">Lorem, ipsum dolor.</span></div>
+        </div>
+      </div>
+
+      <div class="border-[0.01rem] border-gray-100 rounded-md w-[13rem] h-fit px-2">
+        <div class="w-[10rem] h-[10rem] mx-auto">
+          <img src="images/M66830X-CHY-1200x1200 1.png" class="h-fit w-fit" alt="">
+        </div>
+        <div class="text-left relative px-1 py-1 overflow-hidden">
+          <div><span class="text-sm font-sans text-gray-500 ">Chair</span></div>
+          <div><span class="text-gray-900 font-medium  font-sans">Lorem ipsum dolor sit amet.</span></div>
+          <div><span class="text-green-500 font-sans text-sm">$999.99</span></div>
+          <div class="flex items-center space-x-2"><p class="h-2 w-2 rounded-full bg-red-500"></p><span class="text-xs text-red-500">Lorem, ipsum dolor.</span></div>
+        </div>
+      </div>
+
+      <div class="border-[0.01rem] border-gray-100 rounded-md w-[13rem] h-fit px-2">
+        <div class="w-[10rem] h-[10rem] mx-auto">
+          <img src="images/U905 Chair - JS 1.png" class="h-fit w-fit" alt="">
+        </div>
+        <div class="text-left relative px-1 py-1 overflow-hidden">
+          <div><span class="text-sm font-sans text-gray-500 ">Chair</span></div>
+          <div><span class="text-gray-900 font-medium  font-sans">Lorem ipsum dolor sit amet.</span></div>
+          <div><span class="text-green-500 font-sans text-sm">$999.99</span></div>
+          <div class="flex items-center space-x-2"><p class="h-2 w-2 rounded-full bg-red-500"></p><span class="text-xs text-red-500">Lorem, ipsum dolor.</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- for icons -->
+  <div class="w-auto h-fit overflow-hidden relative bg-white my-[2rem] px-[2rem]">
+    <div class="flex text-black px-[1.5rem] py-[1.5rem]">
+      <div><span class="text-black text-xl font-sans ">Shop By Collections</span></div>
+      <div class="flex flex-auto justify-end ">
+        <span class="text-lg font-sans hover:underline text-green-700 font-medium  underline-offset-8">View all</span>
+      </div>
+    </div>
+    <div class="grid grid-cols-6 gap-[1rem] justify-evenly overflow-hidden relative">
+      <!-- this is a first img grid div -->
+      <div class="space-y-3">
+        <div class="h-[10rem] w-[10rem]  rounded-full bg-gray-100 flex items-center">
+          <img src="images/icon1.png" class="h-fit w-fit mx-auto  justify-center" alt="">
+        </div>
+      </div>
+      <!-- this is a second img grid div -->
+      <div class="space-y-3">
+        <div class="h-[10rem] w-[10rem]  rounded-full bg-gray-100 flex items-center">
+          <img src="images/icon2.png" class="h-fit w-fit mx-auto justify-center" alt="">
+        </div>
+      </div>
+
+      <div class="space-y-3">
+        <div class="h-[10rem] w-[10rem]  rounded-full bg-gray-100 flex items-center">
+          <img src="images/Group.png" class="h-fit w-fit mx-auto  justify-center" alt="">
+        </div>
+      </div>
+
+      <div class="space-y-3">
+        <div class="h-[10rem] w-[10rem]  rounded-full bg-gray-100 flex items-center">
+          <img src="images/Group (1).png" class="h-fit w-fit mx-auto  justify-center" alt="">
+        </div>
+      </div>
+
+      <div class="space-y-3">
+        <div class="h-[10rem] w-[10rem]  rounded-full bg-gray-100 flex items-center">
+          <img src="images/Group (2).png" class="h-fit w-fit mx-auto  justify-center" alt="">
+        </div>
+      </div>
+
+      <div class="space-y-3">
+        <div class="h-[10rem] w-[10rem]  rounded-full bg-gray-100 flex items-center">
+          <img src="images/icon3.png" class="h-fit w-fit mx-auto justify-center" alt="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- for different grid point out chairs -->
+  <section class="w-auto h-fit bg-white overflow-hidden relative box-content px-[3rem] my-[3rem]">
+    <div class="grid grid-cols-2 w-full h-fit gap-0 justify-evenly">
+      <!-- item 1 -->
+      <div class="imgdiv bg-[#f1f4fa] flex justify-center items-center rounded-lg">
+        <div class="relative py-[2.5rem] ">
+          <img src="images/grid point chair.png" class="h-[24rem] w-[24rem]" alt="">
+        </div>
+      </div>
+      <!-- item2 -->
+      <div class="bg-white w-full text-left ">
+        <div class="px-[2.5rem] py-2 space-y-[1rem]">
+          <div><h1 class="text-3xl font-medium font-sans text-gray-800">Chelesa Series Scoop Back Chair</h1></div>
+          <div><span class="text-xl font-sans text-green-700 font-medium ">$19.00</span></div>
+          <div><p class="text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cupiditate, assumenda consectetur ab sit hic velit incidunt iure alias nihil inventore quaerat nobis rerum libero magni, fuga explicabo voluptatibus officia aspernatur tempora! Reiciendis excepturi assumenda porro sint necessitatibus ipsa odio dolor obcaecati cumque?</p></div>
+          <div><button class="bg-green-700 text-white font-sans font-medium px-10 py-3 rounded-3xl hover:bg-transparent hover:text-green-700 border-[0.01rem] border-green-500 duration-500 delay-200">View Product</button></div>
+          <!-- chair parts grid -->
+          <div class="my-[1rem] w-fit h-fit overflow-hidden">
+            <br>
+            <ul class="flex gap-3 justify-start">
+              <li><div class="bg-[#f1f4fa] px-[1rem] py-[1.5rem] rounded-sm"><img src="images/W201 Red Chair - JS 3.png" class="h-[6rem] w-[7rem]" alt=""></div></li>
+              <li><div class="bg-[#f1f4fa] px-[1rem] py-[1.5rem] rounded-sm"><img src="images/W201 Red Chair - JS 3 (1).png" class="h-[6rem] w-[7rem]" alt=""></div></li>
+              <li><div class="bg-[#f1f4fa] px-[1rem] py-[1.5rem] rounded-sm"><img src="images/W201 Red Chair - JS 2 (1).png" class="h-[6rem] w-[7rem]" alt=""></div></li>
+              <li><div class="bg-[#f1f4fa] px-[1rem] py-[1.5rem] rounded-sm"><img src="images/W201 Red Chair - JS 3.png" class="h-[6rem] w-[7rem]" alt=""></div></li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- about furny -->
+<div class="w-full my-[3rem] h-fit relative overflow-hidden flex justify-center">
+  <div class="space-y-[2rem]">
+    <h1 class="text-center text-5xl font-semibold ">About Furnify</h1>
+    <p class="w-[45rem] mx-auto text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eius exercitationem quia minus obcaecati totam enim accusantium consequuntur repellat distinctio vitae, ipsum optio veritatis rem in fuga quas debitis quidem! Iusto cum expedita porro.</p>
+    <div class="flex justify-center"><button class="text-white px-10 py-3 font-medium rounded-3xl bg-green-500">Read more</button></div>
+
+  </div>
+</div>
+
+<!-- for about bottom comp -->
+<div class="w-full h-fit  overflow-hidden mt-[5rem] my-[3rem] bg-gray-100">
+  <div class="relative h-full w-full">
+    <img src="images/image 89284.png" class="w-full h-fit" alt="">
+    <!-- absolute wala div -->
+    <div class="absolute top-[6rem] left-[5rem] text-gray-900 overflow-hidden space-y-6">
+      <div><span class="text-lg font-thin tracking-wider">UP TO 25% DISCOUNT</span></div>
+      <div class="w-[22rem]"><span class="w-fit text-2xl font-medium">Its Time to Give Your House a New Look</span></div>
+      <div class="flex justify-start"><button class="text-white bg-green-500 px-10 py-3 rounded-3xl hover:bg-transparent hover:text-green-500 border-[0.01rem] border-green-500 duration-500 delay-200">Shop Now</button></div>
+    </div>
+  </div>
+</div>
+
+<!-- footer-->
+<footer class="bg-[#f1f4fa]">
+  <div class="w-full px-3 py-16 mx-auto sm:px-6 lg:px-4">
+    <div class="grid grid-cols-1 gap-2 lg:grid-cols-3">
+      <div>
+        <div class="flex items-center">
+          <img src="images/Group 113.png" class="mr-1 h-6 sm:h-9" alt="">
+          <img src="images/F U R N I F Y.png" class="mr-1 h-6 sm:h-9" alt="logo" />
+        </div>
+        <p class="max-w-xs mt-4 text-sm text-gray-600">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, accusantium.
+        </p>
+       
+      </div>
+      <div class="grid grid-cols-1  lg:col-span-2 sm:grid-cols-2 lg:grid-cols-5">
+        <div>
+          <p class="font-medium">
+            Company
+          </p>
+          <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+            <a class="hover:opacity-75" href="temp.html"> About </a>
+            <a class="hover:opacity-75" href> Meet the Team </a>
+            <a class="hover:opacity-75" href> History </a>
+            <a class="hover:opacity-75" href> Careers </a>
+          </nav>
+        </div>
+        <div>
+          <p class="font-medium">
+            Services
+          </p>
+          <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+            <a class="hover:opacity-75" href> 1on1 Coaching </a>
+            <a class="hover:opacity-75" href> Company Review </a>
+            <a class="hover:opacity-75" href> Accounts Review </a>
+            <a class="hover:opacity-75" href> HR Consulting </a>
+            <a class="hover:opacity-75" href> SEO Optimisation </a>
+          </nav>
+        </div>
+        <div>
+          <p class="font-medium">
+            Helpful Links
+          </p>
+          <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+            <a class="hover:opacity-75" href> Contact </a>
+            <a class="hover:opacity-75" href> FAQs </a>
+            <a class="hover:opacity-75" href> Live Chat </a>
+          </nav>
+        </div>
+        <div>
+          <p class="font-medium">
+            Legal
+          </p>
+          <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+            <a class="hover:opacity-75" href> Privacy Policy </a>
+            <a class="hover:opacity-75" href> Terms &amp; Conditions </a>
+            <a class="hover:opacity-75" href> Returns Policy </a>
+            <a class="hover:opacity-75" href> Accessibility </a>
+          </nav>
+        </div>
+        <!-- newsletter -->
+        <div class="w-[10rem] ">
+          <p class="font-medium">
+            NewsLetter
+          </p>
+          <p class="text-sm text-gray-600">Subscribe To our Newsletter and get a Free Token</p>
+          <br>
+          <div>
+            <input type="text" class="h-[2.5rem] w-full py-3 px-2 border-[0.01rem] border-gray-300 outline-green-500 placeholder:font-thin placeholder:text-sm" placeholder="Search">
+          </div>
+          <br>
+          <div class="flex justify-start"><button class="bg-green-500 text-white px-10 py-2 rounded-3xl  font-medium  hover:bg-transparent hover:text-green-500 border-[0.01rem] border-green-500">Subscribe</button></div>
+          
+        </div>
+
+      </div>
+    </div>
+    <div class="px-4 py-2 grid gap-[6rem] grid-cols-3 justify-evenly overflow-hidden mt-[2rem]">
+      <div class="grid1">
+        <p class="mt-8 text-xs text-gray-800">
+          Copyright @2023 furnify.co <br>
+          <span>All Right Reserved</span></p>
+      </div>
+      <div class="grid2">
+         <div class="flex mt-8 space-x-6 text-gray-600">
+          <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
+            <span class="sr-only"> Facebook </span>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" />
+            </svg>
+          </a>
+          <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
+            <span class="sr-only"> Instagram </span>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fillRule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clipRule="evenodd" />
+            </svg>
+          </a>
+          <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
+            <span class="sr-only"> Twitter </span>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+            </svg>
+          </a>
+          <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
+            <span class="sr-only"> GitHub </span>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" />
+            </svg>
+          </a>
+          <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
+            <span class="sr-only"> Dribbble </span>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fillRule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z" clipRule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="grid3 space-y-3">
+        <div>
+          <h6><span class="font-sans text-gray-900 font-medium">We Accept</span></h6>
+        </div>
+        <ul class="flex justify-evenly gap-2 overflow-hidden w-[15rem] h-fit ">
+          <li>
+            <div>
+              <img src="images/Group 80.png" class="h-auto w-auto" alt="">
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="images/Group 81.png" class="h-auto w-auto" alt="">
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="images/Group 82.png" class="h-auto w-auto" alt="">
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="images/Group 83.png" class="h-auto w-auto" alt="">
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="images/Group 84.png" class="h-auto w-auto" alt="">
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="images/Group 85.png" class="h-auto w-auto" alt="">
+            </div>
+          </li>
+        </ul>
+      </div>
+     
+    </div>
+  </div>
+</footer>
+
+<!-- newsletter popup -->
+<div id="fullscreen" class="h-screen w-full   absolute top-0 left-0 flex justify-center items-center">
+  <div id="newsletter" class="hidden z-50 h-auto w-[60rem] overflow-hidden box-content relative bg-white border-[0.01rem] border-gray-300">
+  <div class="px-[1.5rem] py-[1.5rem] grid grid-cols-2 justify-evenly gap-4 overflow-hidden">
+    <!-- item 1 for img -->
+    <div class="imgitem h-auto w-auto ">
+      <img src="images/popupimg.png" class="h-[25rem] w-[40rem]" alt="">
+    </div>
+    <!-- item 2 for desc of newsletter -->
+    <div class="h-auto w-auto bg-white px-3 py-1 ">
+      <!-- for cross div -->
+      <div onclick="closemodel()" class="flex justify-end flex-auto h-auto w-auto -px-2 -py-2">
+        <img  src="images/cross.png" class="h-[1rem] w-[1rem]" alt="">
+      </div>
+      <!-- for desc of text of newsletter -->
+      <div class="py-[2rem] text-center relative h-auto w-auto flex justify-center items-center">
+        <div class="w-[30rem] space-y-[1.3rem] h-auto">
+          <h1 class="text-[1.7rem] font-sans font-medium text-gray-900 w-[20rem] mx-auto">Save 10% UpTo Your Next Purchase</h1>
+          <p class="text-gray-700 w-[24rem] mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt maiores asperiores aliquam!</p>
+          <input type="email" class="w-[23rem] px-3 py-3 outline-none border-[0.01rem] border-gray-300 rounded-lg placeholder:text-gray-400 placeholder:text-sm" placeholder="Enter your E-mail address">
+          <div><button class="px-32 py-3 bg-green-700 text-white font-sans font-medium rounded-3xl border-[0.01rem] border-green-700 hover:text-green-700 hover:bg-transparent duration-500 delay-200">Subscribe Now</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+</body>
+<!-- crowsel home page -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const slider = document.querySelector('#slider');
+    setTimeout(function moveSlide() {
+      const max = slider.scrollWidth - slider.clientWidth;
+      const left = slider.clientWidth;
+
+      if (max === slider.scrollLeft) {
+        slider.scrollTo({ left: 0, behavior: 'smooth' })
+      } else {
+        slider.scrollBy({ left, behavior: 'smooth' })
+      }
+
+      setTimeout(moveSlide, 7000)
+    }, 5000)
+
+  })
+
+  // for cross the newsletter
+  function closemodel() {
+   $('#newsletter').fadeOut(600)
+   $('#fullscreen').fadeOut(100)
+  }
+
+  function openModal() {
+    $('#fullscreen').show(100)
+    $('#newsletter').show(600)
+  }
+
+   // Wait for the page to load and then show the modal
+   document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(() => {
+      openModal();
+    }, 5000);
+  });
+  
+  </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+</html>
